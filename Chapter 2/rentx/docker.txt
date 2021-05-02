@@ -1,0 +1,55 @@
+Listar containers:
+
+docker ps
+
+docker ps -a
+
+Build:
+
+docker build -t rentx
+
+Acessar cmd do container:
+
+docker exec -it <name> /bin/bash
+
+Sair: ctrl + d
+
+Remover container (container deve estar parado):
+
+docker rm <id> (ou <nome>)
+
+Iniciar container:
+
+docker start <id> (ou nome)
+
+Parar:
+
+docker stop <id>
+
+Rodar sem compose:
+
+docker run -p 3333:3333 rentx
+
+Logs:
+
+docker logs <nome>
+
+
+
+Criar pelo compose:
+
+docker-compose up
+
+docker-compose up -d
+
+Parar pelo compose:
+
+docker-compose stop
+
+Remover pelo compose:
+
+docker-compose down
+
+Iniciar pelo compose:
+
+docker-compose start
