@@ -34,11 +34,17 @@ Logs:
 
 docker logs <nome>
 
+Descobrir IP do container:
+
+docker exec <name> cat /etc/hosts
+
 
 
 Criar pelo compose:
 
 docker-compose up
+
+docker-compose up --force-recreate
 
 docker-compose up -d
 
