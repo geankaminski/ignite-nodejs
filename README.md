@@ -11,4 +11,13 @@
 ## Visão geral
 
 - A aplicação principal Rentx está no Chapter 2.
-- Os desafios concluídos estão nos seus respectivos diretórios
+- Os desafios concluídos e demonstrações estão nos seus respectivos diretórios.
+
+## Rentx
+
+<h1 align="center">
+	<img
+		alt="Modelo da aplicação Rentx"
+		src="assets/diagram.png">
+</h1>
+
