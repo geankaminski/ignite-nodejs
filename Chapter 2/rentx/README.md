@@ -55,3 +55,24 @@ Deve ser possível cadastrar um aluguel.
 O aluguel deve ter duração mínima de 24 horas.
 Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo usuário.
 Não deve ser possível cadastrar um novo aluguel caso já exista um aberto para o mesmo carro.
+O usuário deve estar logado na aplicação.
+
+# Devolução de carro
+
+**RF**
+Deve ser possível realizar a devolução de um carro.
+
+**RN**
+Se o carro for devolvido com menos de 24 horas será cobrado diária completa.
+Ao realizar devolução o carro deverá ser liberado para outro aluguel.
+Ao realizar devolução o usuário deverá ser liberado para outro aluguel.
+Ao realizar a devolução, deverá ser calculado o total do aluguel.
+Caso haja multa, deverá ser somado ao total do aluguel.
+
+# Listagem de Aluguéis para usuário
+
+**RF**
+Deve ser possível realizar a busca de todos os aluguéis para o usuário.
+
+**RN**
+O usuário deve estar logado na aplicação.
