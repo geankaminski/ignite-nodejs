@@ -66,6 +66,6 @@ describe("Create category controller", () => {
                 Authorization: `Bearer ${token}`,
             });
 
-        expect(response.status).toBe(400);
+        expect(response.status).toBe(401);
     });
 });
